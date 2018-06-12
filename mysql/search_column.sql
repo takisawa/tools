@@ -8,4 +8,5 @@ FROM
 WHERE
   table_schema = 'DATABASE_NAME'
   AND
-  column_name LIKE '%COLUMN_NAME%';
+  column_name LIKE '%COLUMN_NAME%'
+;
